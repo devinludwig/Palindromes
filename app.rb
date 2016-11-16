@@ -9,6 +9,7 @@ get('/') do
 end
 
 get('/input') do
+  @input = params.fetch('text')
   result = params.fetch('text').check()
   if result.== true
   @result = ''

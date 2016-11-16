@@ -1,0 +1,28 @@
+h1 {
+  color: white;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  text-align: center;
+  font-size: 80px;
+}
+
+body {
+  background-image: url(rum.jpg);
+  /*background-size: cover;*/
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: black;
+}
+
+button {
+  background-color: red;
+  font-weight: bolder;
+}
+
+label {
+  font-size: 30px;
+}
